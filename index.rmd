@@ -15,3 +15,18 @@ Here is my website!
 knitr::include_graphics("./media/IMG_0044.jpg")
 ```
 
+## Here's some links
+
+[About me!](https://ryannewelch.github.io/aboutme/)
+
+[My CV!](https://ryannewelch.github.io/aboutme/CV.pdf)
+
+```{r,fig.align='center',fig.width=5, fig.height=5}
+knitr::include_graphics("./media/200.gif")
+```
+
+# adding gif
+![](./media/mygif.gif)
+
+
+
