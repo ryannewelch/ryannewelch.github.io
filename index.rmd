@@ -26,7 +26,7 @@ knitr::include_graphics("./media/200.gif")
 ```
 
 # adding gif
-![](./media/mygif.gif)
+
 
 
 
