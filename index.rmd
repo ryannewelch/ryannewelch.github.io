@@ -1,6 +1,10 @@
 ---
-output: html_document
 pagetitle: Ryanne Welch
+output: 
+  html_document: 
+    theme: yeti
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE,warning=FALSE, message=FALSE)
 library(tidyverse)
 
 ```
-Here is my website!
+# Ryanne Welch
 
 ```{r,fig.align='center',fig.width=5, fig.height=5}
 knitr::include_graphics("./media/IMG_0044.jpg")
@@ -17,15 +21,12 @@ knitr::include_graphics("./media/IMG_0044.jpg")
 
 ## Here's some links
 
-[About me!](https://ryannewelch.github.io/aboutme/)
+## [About me](https://ryannewelch.github.io/aboutme/)
 
-[My CV!](https://ryannewelch.github.io/aboutme/CV.pdf)
+## [CV](https://ryannewelch.github.io/aboutme/CV.pdf)
 
-```{r,fig.align='center',fig.width=5, fig.height=5}
-knitr::include_graphics("./media/200.gif")
-```
+## [BIOL 3100 Final Project]   
 
-# adding gif
 
 
 
